@@ -21,7 +21,7 @@ body{
     /* size: 100%; un
     height: 100%; un
     width: 100%; un */
-    height: 99vh;
+    height: fit-content;
     /* max-width: 100%; */
     /* width: 100vw; */
     flex-direction: column;
@@ -37,7 +37,7 @@ body{
 }
 
 .card{
-    height: 95%;
+    height: fit-content;
     width: 99%;
     margin: 0%;
     /* align-items: center; */
@@ -262,7 +262,7 @@ button{
 
 
 .carousel {
-    height: 80vh;
+    height: auto;
     align-items: center;
     background-color: #fdcb6e;
 
@@ -274,7 +274,7 @@ button{
 ul.slides {
     display: block;
     position: relative;
-    height: 95vh;
+    height: 99vh;
     background-color: #fdcb6e;
 
     /* margin-top: 10%;
@@ -555,6 +555,7 @@ input:checked + .slide-container .nav label { display: block; }
 } */
 /* CSS for skills */
 .skills-container{
+    height: auto;
     padding-top: 4%;
     padding-bottom: 4%;
     display: flex;
@@ -618,7 +619,7 @@ input:checked + .slide-container .nav label { display: block; }
 .contacts{
     color: white;
     margin:4%;
-    font-size: 35px;
+    font-size: 26px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -781,7 +782,7 @@ hr{
         font-size: 35px;
     }
     .contacts{
-        font-size: 20px;
+        font-size: 16px;
     }
     }
     @media screen and (max-width: 900px){
