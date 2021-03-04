@@ -91,6 +91,7 @@ body{
 .img-right{
     display: flex;
     justify-content: center;
+    align-items: center;
     /* margin: 1%; */
     padding: 1%;
 }
@@ -99,6 +100,10 @@ body{
     /* margin: 1%; */ 
     /* height: 80%; */
     width:50%;
+    -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -khtml-border-radius: 100%;
+
     /* overflow: hidden; */
     /* position: relative; */
     border-radius: 100%;
