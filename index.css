@@ -42,6 +42,7 @@ body{
     height: 95%;
     width: 99%;
     margin-top: 2%;
+    margin-bottom: 2%;
     /* align-items: center; */
     justify-items: center;
     /* border-radius: 30px; */
@@ -639,7 +640,7 @@ input:checked + .slide-container .nav label { display: block; }
 } */
 hr{
     /* margin-top: 0%; */
-    width: 30%;
+    width: 85%;
     height: 1px;
     border: 0.5px solid #2d3436;
     margin-left: auto;
