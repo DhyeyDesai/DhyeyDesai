@@ -620,11 +620,12 @@ input:checked + .slide-container .nav label { display: block; }
 } */
 .contacts a{
     text-decoration: none;
-    color: white;
+    color: #b2bec3;
 }
 
 .contacts{
-    color: white;
+    text-align: left;
+    color: #b2bec3;
     margin:4%;
     font-size: 26px;
     display: flex;
@@ -638,11 +639,14 @@ input:checked + .slide-container .nav label { display: block; }
 } */
 hr{
     /* margin-top: 0%; */
-    width: 80%;
+    width: 30%;
+    height: 1px;
+    border: 0.5px solid #2d3436;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
-    color: #dfe6e9;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    
     /* border: none; */
     /* color :yellow; */
 }
